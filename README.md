@@ -2,7 +2,7 @@
 
 This repository contains the official implementation for our paper: **“ConciseRL: Conciseness‑Guided Reinforcement Learning for Efficient Reasoning Models”.**  
 
-The codebase is **forked from** [Zanette‑Labs/efficient-reasoning](https://github.com/Zanette-Labs/efficient-reasoning) and extends it with a new reward family that explicitly favours *short yet correct* chain‑of‑thought (CoT) traces.
+The codebase is **forked from** [Zanette‑Labs/efficient-reasoning](https://github.com/Zanette-Labs/efficient-reasoning) and extends it with a new reward family that explicitly favours *concise yet correct* chain‑of‑thought (CoT) traces.
 
 We release:
 
