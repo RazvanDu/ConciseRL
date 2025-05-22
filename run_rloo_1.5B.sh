@@ -62,7 +62,7 @@ python -m reward_server.math_server \
   --model_api $MODEL_API \
   --alpha $ALPHA \
   $CHECK_EOS \
-  &
+  1> logs/server$SLURM_JOB_ID.out 2> logs/server$SLURM_JOB_ID.err&
 
 python -m openrlhf.cli.train_ppo_ray \
   --advantage_estimator rloo \
