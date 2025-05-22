@@ -6,9 +6,8 @@ We release:
 
 * **training & evaluation scripts** supporting three reward modes (`sigmoid`, `GPT_Score3`, `GPT_Separated`) with plug‑and‑play toggles;
 * **pre‑configured Slurm launchers** that accept `OPENAI_API_KEY`, `REWARD_TYPE`, and `MODEL_API` as environment variables;
-* an updated evaluation pipeline reporting token‑efficiency and accuracy jointly.
 
-The implementation has been validated on A100 GPUs with **Python 3.10.12**, **CUDA 12.4**, and **PyTorch 2.5.1**.
+The implementation has been validated on 4x A100 GPUs with **Python 3.10.12**, **CUDA 12.4**, and **PyTorch 2.5.1**.
 
 ---
 
