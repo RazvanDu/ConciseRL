@@ -17,7 +17,7 @@ NUM_GPUS=$(nvidia-smi --query-gpu=name --format=csv,noheader | wc -l)
 MODEL_SCALE='1.5B'
 REWARD_TYPE='GPT_Score3'
 ALPHA=0.1 # This controls the penalty for longer correct respones. Increase to penalize longer responses.
-WANDB_KEY="65c076a4c41e029288e44594bce4d21f2d539512" # Provide your wandb key here before running
+WANDB_KEY=YOUR_WANB_KEY_HERE # Provide your wandb key here before running
 CHECK_EOS='--check_eos'
 SCHEDULER_TYPE='warmup_with_constant_lr' # can be cosine otherwise
 OPENAI_KEY=YOUR_KEY_HERE
@@ -62,7 +62,7 @@ python -m reward_server.math_server \
   --model_api $MODEL_API \
   --alpha $ALPHA \
   $CHECK_EOS \
-  &> logs/server_still-3-GPT_Separated-GPT4.1-mini-$SLURM_JOB_ID.all &
+  &
 
 python -m openrlhf.cli.train_ppo_ray \
   --advantage_estimator rloo \
