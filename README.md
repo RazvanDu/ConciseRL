@@ -1,5 +1,7 @@
 # ConciseRL: Conciseness‑Guided Reinforcement Learning for Efficient Reasoning Models
 
+Paper available at https://arxiv.org/abs/2505.17250.
+
 This repository contains the official implementation for our paper: **“ConciseRL: Conciseness‑Guided Reinforcement Learning for Efficient Reasoning Models”.**  
 
 The codebase is **forked from** [Zanette‑Labs/efficient-reasoning](https://github.com/Zanette-Labs/efficient-reasoning) and extends it with a new reward family that explicitly favours *concise yet correct* chain‑of‑thought (CoT) traces.
@@ -98,16 +100,27 @@ The script reports **accuracy** and **mean generated tokens** side‑by‑side.
 If you use this code, please cite our paper.
 
 ```
+Coming soon.
 ```
 
 ### RIS
 
 ```
+Coming soon.
 ```
 
 ### BibTeX
 
 ```
+@misc{dumitru2025conciserlconcisenessguidedreinforcementlearning,
+      title={ConciseRL: Conciseness-Guided Reinforcement Learning for Efficient Reasoning Models}, 
+      author={Razvan-Gabriel Dumitru and Darius Peteleaza and Vikas Yadav and Liangming Pan},
+      year={2025},
+      eprint={2505.17250},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.17250}, 
+}
 ```
 
 ---
