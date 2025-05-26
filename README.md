@@ -1,6 +1,6 @@
 # ConciseRL: Conciseness‑Guided Reinforcement Learning for Efficient Reasoning Models
 
-Paper available at https://arxiv.org/abs/2505.17250.
+The paper is available at: https://arxiv.org/abs/2505.17250.
 
 This repository contains the official implementation for our paper: **“ConciseRL: Conciseness‑Guided Reinforcement Learning for Efficient Reasoning Models”.**  
 
@@ -103,12 +103,6 @@ If you use this code, please cite our paper.
 Coming soon.
 ```
 
-### RIS
-
-```
-Coming soon.
-```
-
 ### BibTeX
 
 ```
@@ -121,6 +115,12 @@ Coming soon.
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2505.17250}, 
 }
+```
+
+### RIS
+
+```
+Coming soon.
 ```
 
 ---
