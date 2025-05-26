@@ -54,7 +54,13 @@ The split merges items from **MATH**, **CN‑K12**, **AIME**, **AoPS**, and **Ol
 
 ---
 
-## 3. Reward Modes
+## 3. Model Weights
+
+We will soon release model weights for the key models evaluated in the paper.
+
+---
+
+## 4. Reward Modes
 
 | REWARD_TYPE     | Description                                                                                                                                      |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -64,9 +70,9 @@ The split merges items from **MATH**, **CN‑K12**, **AIME**, **AoPS**, and **Ol
 
 ---
 
-## 4. Quick Start
+## 5. Quick Start
 
-### 4.1. Training
+### 5.1. Training
 
 We provide Slurm launchers that forward the OpenAI key, reward type, and model type to the trainer.
 
@@ -82,7 +88,7 @@ sbatch run_rloo_1.5B.sh
 
 If you do not use Slurm, translate the `#SBATCH` headers into an `accelerate launch` or `torchrun` command.
 
-### 4.2. Evaluation
+### 5.2. Evaluation
 
 ```bash
 python evaluate_model.py \
@@ -95,12 +101,12 @@ The script reports **accuracy** and **mean generated tokens** side‑by‑side.
 
 ---
 
-## 5. Citation
+## 6. Citation
 
 If you use this code, please cite our paper.
 
 ```
-Coming soon.
+Dumitru, R.-G., Peteleaza, D., Yadav, V., & Pan, L. (2025). ConciseRL: Conciseness-Guided Reinforcement Learning for Efficient Reasoning Models. arXiv preprint arXiv:2505.17250. https://arxiv.org/abs/2505.17250
 ```
 
 ### BibTeX
@@ -120,7 +126,17 @@ Coming soon.
 ### RIS
 
 ```
-Coming soon.
+TY  - MISC
+AU  - Dumitru, Razvan-Gabriel
+AU  - Peteleaza, Darius
+AU  - Yadav, Vikas
+AU  - Pan, Liangming
+TI  - ConciseRL: Conciseness-Guided Reinforcement Learning for Efficient Reasoning Models
+PY  - 2025
+UR  - https://arxiv.org/abs/2505.17250
+DO  - 10.48550/arXiv.2505.17250
+ID  - dumitru2025conciserlconcisenessguidedreinforcementlearning
+ER  - 
 ```
 
 ---
